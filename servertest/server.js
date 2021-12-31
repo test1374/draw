@@ -1,7 +1,7 @@
 var express = require('express');
 
 var app = express();
-var server = app.listen(3000);
+var server = app.listen('https://test1374.github.io/draw/');
 
 app.use(express.static('public'));
 
