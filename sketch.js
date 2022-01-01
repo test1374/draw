@@ -27,7 +27,7 @@ function mouseDragged() {
   }
 
   socket.emit('mouse', data);
-  fill(0, 100, 200);
+  fill(255);
   noStroke();
   ellipse(mouseX, mouseY, 36, 36);
 }
